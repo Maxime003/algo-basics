@@ -2,7 +2,11 @@
  * Write a function that returns "raspberry !" if the provided fruit is a raspberry, and "doh !" otherwise
  */
 export function basicCondition(fruit) {
-    
+    if (fruit == "raspberry"){
+        return "raspberry !"
+    } else {
+        return "doh !"
+    }
 }
 
 /**
